@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/careerbytes/static/css/main.73287e72.css",
-    "main.js": "/careerbytes/static/js/main.d3000cc0.js",
+    "main.js": "/careerbytes/static/js/main.d86fa3b9.js",
     "static/media/e1.png": "/careerbytes/static/media/e1.150e0b87d3a3d238ad51.png",
     "static/media/roboto-latin-700-normal.woff2": "/careerbytes/static/media/roboto-latin-700-normal.4535474e1cf8598695ad.woff2",
     "static/media/roboto-latin-500-normal.woff2": "/careerbytes/static/media/roboto-latin-500-normal.7077203b1982951ecf76.woff2",
@@ -61,10 +61,10 @@
     "static/media/roboto-greek-ext-400-normal.woff": "/careerbytes/static/media/roboto-greek-ext-400-normal.16eb83b4a3b1ea994243.woff",
     "index.html": "/careerbytes/index.html",
     "main.73287e72.css.map": "/careerbytes/static/css/main.73287e72.css.map",
-    "main.d3000cc0.js.map": "/careerbytes/static/js/main.d3000cc0.js.map"
+    "main.d86fa3b9.js.map": "/careerbytes/static/js/main.d86fa3b9.js.map"
   },
   "entrypoints": [
     "static/css/main.73287e72.css",
-    "static/js/main.d3000cc0.js"
+    "static/js/main.d86fa3b9.js"
   ]
 }
