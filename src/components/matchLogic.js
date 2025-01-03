@@ -1,7 +1,7 @@
 const jobRoles = {
   tolol: {
     title: "terdeteksi fendi",
-    requiredSkills: [],
+    requiredSkills: [""],
     description:
       "anda terdeteksi fendi, tikus tikuss hushh hussh hussshh, cit cti cti cittttt citt ciitt 🐭🐭🤬🤬",
   },
