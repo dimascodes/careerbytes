@@ -1,7 +1,7 @@
 const jobRoles = {
   tolol: {
     title: "terdeteksi fendi",
-    requiredSkills: [""],
+    requiredSkills: [null],
     description:
       "anda terdeteksi fendi, tikus tikuss hushh hussh hussshh, cit cti cti cittttt citt ciitt 🐭🐭🤬🤬",
   },
@@ -14,134 +14,134 @@ const jobRoles = {
   },
   FRONTEND_DEV: {
     title: "Frontend Developer",
-    requiredSkills: [4, 11, 12],
+    requiredSkills: ["javascript", "css", "html"],
     description: "Pawang tampilan, pejuang pixel perfect.",
   },
   BACKEND_DEV: {
     title: "Backend Developer",
-    requiredSkills: [1, 2, 9],
+    requiredSkills: ["python", "java", "sql"],
     description: "Ninja server-side, sering disalahkan frontend.",
   },
   DEVOPS: {
     title: "DevOps Engineer",
-    requiredSkills: [8, 1, 4],
+    requiredSkills: ["linux", "python", "javascript"],
     description: "Jembatan damai antara developer dan server.",
   },
   GAME_DEV: {
     title: "Game Developer",
-    requiredSkills: [3, 15, 16],
+    requiredSkills: ["cpp", "blender", "shader programming"],
     description: "Pemimpi dunia virtual, sering ngoding sambil main game.",
   },
   CYBER_SECURITY: {
     title: "Cyber Security Specialist",
-    requiredSkills: [8, 1, 10],
+    requiredSkills: ["linux", "python", "statistik"],
     description: "Hacker legal yang hobi main tebak password.",
   },
   DATABASE_ADMIN: {
     title: "Database Administrator",
-    requiredSkills: [9, 1, 10],
+    requiredSkills: ["sql", "python", "statistik"],
     description: "Pelindung data, sering ditanya 'kenapa error nih?'.",
   },
   MOBILE_DEV: {
     title: "Mobile App Developer",
-    requiredSkills: [7, 13, 4],
+    requiredSkills: ["kotlin", "node.js", "javascript"],
     description: "Pencipta aplikasi, kadang lupa update versi.",
   },
   JAVA_NINJA: {
     title: "Java Ninja",
-    requiredSkills: [2, 13, 4],
+    requiredSkills: ["java", "node.js", "javascript"],
     description: "Master OOP, siap menghadapi error dan null pointer.",
   },
   CLOUD_ENGINEER: {
     title: "Cloud Engineer",
-    requiredSkills: [8, 4, 1],
+    requiredSkills: ["linux", "javascript", "python"],
     description:
       "Sang penjaga awan digital, lebih sering di cloud daripada darat.",
   },
   QA_ENGINEER: {
     title: "Quality Assurance Engineer",
-    requiredSkills: [4, 9, 1],
+    requiredSkills: ["javascript", "sql", "python"],
     description: "Pemburu bug yang bikin developer menangis.",
   },
   AI_ENGINEER: {
     title: "AI Engineer",
-    requiredSkills: [1, 10, 4],
+    requiredSkills: ["python", "statistik", "javascript"],
     description: "Pencipta masa depan, sering bicara dengan AI.",
   },
   TECH_SUPPORT: {
     title: "Technical Support",
-    requiredSkills: [1, 9, 4],
+    requiredSkills: ["python", "sql", "javascript"],
     description: "Malaikat sabar, mendengar keluhan user seharian.",
   },
   UX_DESIGNER: {
     title: "UX Designer",
-    requiredSkills: [11, 12, 4],
+    requiredSkills: ["css", "html", "javascript"],
     description:
       "Pakar pengalaman pengguna, suka bilang 'lebih user-friendly dong'.",
   },
   NETWORK_ENGINEER: {
     title: "Network Engineer",
-    requiredSkills: [8, 9, 4],
+    requiredSkills: ["linux", "sql", "javascript"],
     description: "Pawang jaringan, internet lambat jadi musuh bebuyutan.",
   },
   PRODUCT_MANAGER: {
     title: "Product Manager",
-    requiredSkills: [4, 13, 9],
+    requiredSkills: ["javascript", "node.js", "sql"],
     description: "Pengatur timeline, sering disalahkan kalau delay.",
   },
   SCRUM_MASTER: {
     title: "Scrum Master",
-    requiredSkills: [4, 13, 9],
+    requiredSkills: ["javascript", "node.js", "sql"],
     description: "Pengatur ritme tim, suka bilang 'stand-up yuk!'",
   },
   ROBOTICS_ENGINEER: {
     title: "Robotics Engineer",
-    requiredSkills: [3, 15, 16],
+    requiredSkills: ["cpp", "blender", "shader programming"],
     description: "Pembuat robot, berharap robotnya gak jadi musuh manusia.",
   },
   BI_ENGINEER: {
     title: "Business Intelligence Engineer",
-    requiredSkills: [9, 4, 10],
+    requiredSkills: ["sql", "javascript", "statistik"],
     description: "Detektif bisnis, suka bilang 'insight-nya keren nih'.",
   },
   SEO_SPECIALIST: {
     title: "SEO Specialist",
-    requiredSkills: [4, 9, 12],
+    requiredSkills: ["javascript", "sql", "html"],
     description: "Pencari jalan pintas ke halaman pertama Google.",
   },
   TECH_WRITER: {
     title: "Technical Writer",
-    requiredSkills: [4, 9, 1],
+    requiredSkills: ["javascript", "sql", "python"],
     description: "Si penyulap istilah teknis jadi bahasa manusia.",
   },
   SYSTEM_ADMIN: {
     title: "System Administrator",
-    requiredSkills: [8, 4, 1],
+    requiredSkills: ["linux", "javascript", "python"],
     description: "Pahlawan tanpa tanda jasa di balik server stabil.",
   },
   MACHINE_LEARNING_ENGINEER: {
     title: "Machine Learning Engineer",
-    requiredSkills: [1, 10, 4],
+    requiredSkills: ["python", "statistik", "javascript"],
     description: "Guru mesin, mengajarkan komputer cara berpikir.",
   },
   BLOCKCHAIN_DEV: {
     title: "Blockchain Developer",
-    requiredSkills: [4, 9, 3],
+    requiredSkills: ["javascript", "sql", "cpp"],
     description: "Penggemar kripto, mengubah dunia satu blok dalam waktu.",
   },
   FULLSTACK_DEV: {
     title: "Full Stack Developer",
-    requiredSkills: [4, 13, 14],
+    requiredSkills: ["javascript", "node.js", "react"],
     description: "Jagoan serba bisa, pejuang dari front hingga back.",
   },
   TECH_ARTIST: {
     title: "Technical Artist",
-    requiredSkills: [15, 16, 3],
+    requiredSkills: ["blender", "shader programming", "cpp"],
     description: "Artis dengan jiwa teknis, dunia 3D jadi playground-nya.",
   },
   UI_ENGINEER: {
     title: "UI Engineer",
-    requiredSkills: [14, 11, 4],
+    requiredSkills: ["react", "css", "javascript"],
     description: "Pejuang keindahan dan performa antarmuka.",
   },
   REKTOR: {
