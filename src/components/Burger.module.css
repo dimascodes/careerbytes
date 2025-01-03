@@ -1,0 +1,60 @@
+/* Burger.module.css */
+.burgerMenu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 25%;
+  height: 100vh;
+  background: white;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+  animation: slideIn 0.3s ease-in-out;
+  z-index: 100;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.closeButton {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.startTest {
+  margin: 20px;
+  background-color: #a76cab;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.active_page {
+  border-bottom: 3px solid #fff;
+}
+.menuList {
+  list-style: none;
+  padding: 0;
+  margin: 20px;
+}
+
+.menuList li {
+  margin: 10px 0;
+}
+
+.searchWrapper {
+  margin: 20px;
+}
+
+.loginButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px;
+}

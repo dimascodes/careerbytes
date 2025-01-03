@@ -1,0 +1,24 @@
+.home {
+  background-color: #639dc1; /* Warna biru langit */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90dvh;
+}
+
+.box {
+  width: 50%;
+  color: #ffffff;
+  margin-top: 5rem;
+  margin-bottom: 3rem; /* Memberikan jarak dengan tombol */
+}
+
+.home_image {
+  background-image: url("../assets/images/e1.png"); /* Path ke gambar */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 10%; /* Ukuran gambar */
+  height: 200px; /* Atur tinggi gambar */
+  margin: 2rem auto 0; /* Jarak dan pusatkan */
+}
